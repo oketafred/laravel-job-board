@@ -17,12 +17,9 @@
     </head>
     <body class="antialiased">
         <div class="min-h-screen">
+          @include('layouts.navigation')
             <div style="background-color: rgb(248, 250, 252); background-image: url(&quot;/images/bg.svg&quot;); background-size: cover;">
-                <div class="flex justify-center pt-16 md:pt-3">
-                    <a href="https://larajobs.com" style="height: 40px;">
-                        <img src="/images/logo.svg" style="height: 40px;">
-                    </a>
-                </div> <div class="pb-5 border-b">
+                <div class="pb-5 border-b">
                     <p class="text-gray-800 text-5xl font-bold text-center leading-tight mt-4 mb-4 mx-4">The ugandan tech job board</p> 
                     <p class="text-xl text-gray-600 text-center mb-6 mx-2">Since 2020, the #1 Ugandan Tech job board connecting the best jobs with top talent.</p> 
                     <div class="flex justify-center items-center flex-wrap">
@@ -36,7 +33,6 @@
             </div>
 
             <div class="container mx-auto px-4 mt-8">
-              {{-- @include('layouts.navigation') --}}
               <form action="/email/subscribe" method="POST">
                 <div class="flex justify-between items-center flex-wrap md:flex-no-wrap bg-gray-500 mb-8 rounded py-3 px-3">
                   <div class="flex-grow flex justify-end flex-col md:flex-row">
