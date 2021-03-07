@@ -1,7 +1,6 @@
 <template>
   <div>
-    <email-subscription />
-    <job-listings />
+    <app-navbar />
   </div>
 </template>
 

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <email-subscription />
-    <job-listings />
+    <h2>Registration</h2>
   </div>
 </template>
 

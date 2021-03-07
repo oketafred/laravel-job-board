@@ -13,8 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/login', function () {
+//     return view('login');
+// })->name('login');
+
+// Route::get('/register', function () {
+//     return view('register');
+// })->name('register');
+
+
 Route::get('/{any?}', function () {
-    return view('welcome');
+    return view('layout');
 })->where('any', '.*');
 
 
